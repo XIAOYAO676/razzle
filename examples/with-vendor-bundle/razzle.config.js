@@ -15,7 +15,7 @@ module.exports = {
       config.entry.vendor = [
         require.resolve('react'),
         require.resolve('react-dom'),
-        // ... add any other vendor packages with require.resolve('xxx')
+        // ... add any other vendor packages with require.resolve('admin')
       ];
 
       config.optimization = {
